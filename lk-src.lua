@@ -37,12 +37,17 @@ end
 
 Tabs.Servers:AddButton({
     Title = "Hop Full Moon",
-    Callback = function() Hop("fullmoon") end
+    Callback = function() Hop("full-moon") end
 })
 
 Tabs.Servers:AddButton({
     Title = "Hop Mirage",
     Callback = function() Hop("mirage") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Devil Fruit",
+    Callback = function() Hop("devil-fruit") end
 })
 
 Tabs.Servers:AddButton({
@@ -63,4 +68,9 @@ Tabs.Servers:AddButton({
 Tabs.Servers:AddButton({
     Title = "Hop Dough King",
     Callback = function() Hop("dough-king") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Tyrant Skies",
+    Callback = function() Hop("tyrant-skies") end
 })
