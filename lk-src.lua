@@ -46,11 +46,6 @@ Tabs.Servers:AddButton({
 })
 
 Tabs.Servers:AddButton({
-    Title = "Hop Devil Fruit",
-    Callback = function() Hop("devil-fruit") end
-})
-
-Tabs.Servers:AddButton({
     Title = "Hop Cursed Captain",
     Callback = function() Hop("cursed-captain") end
 })
@@ -71,6 +66,46 @@ Tabs.Servers:AddButton({
 })
 
 Tabs.Servers:AddButton({
+    Title = "Hop Devil Fruit",
+    Callback = function() Hop("devil-fruit") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Pirate Raid",
+    Callback = function() Hop("pirate-raid") end
+})
+
+Tabs.Servers:AddButton({
     Title = "Hop Tyrant Skies",
     Callback = function() Hop("tyrant-skies") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Sword Oroshi",
+    Callback = function() Hop("sword-oroshi") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Sword Shizu",
+    Callback = function() Hop("sword-shizu") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Sword Saishi",
+    Callback = function() Hop("sword-saishi") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Haki Pure Red",
+    Callback = function() Hop("haki-pure-red") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Haki Snow White",
+    Callback = function() Hop("haki-snow-white") end
+})
+
+Tabs.Servers:AddButton({
+    Title = "Hop Haki Winter Sky",
+    Callback = function() Hop("haki-winter-sky") end
 })
